@@ -10,7 +10,7 @@ body {
   color: #606c71; }
 
 a {
-  color: #1e6bb8;
+  color: rgba(9, 9, 9, 0.44);
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -36,7 +36,7 @@ a {
 
 @media screen and (min-width: 64em) {
   .btn {
-    padding: 0.75rem 1rem; } }
+    padding: 1.2rem 1rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .btn {
@@ -47,7 +47,7 @@ a {
   .btn {
     display: block;
     width: 100%;
-    padding: 0.75rem;
+    padding: 1srem;
     font-size: 0.9rem; }
     .btn + .btn {
       margin-top: 1rem;
@@ -61,7 +61,8 @@ a {
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 11rem 6rem;
+    margin-top: 0px; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
@@ -69,7 +70,7 @@ a {
 
 @media screen and (max-width: 42em) {
   .page-header {
-    padding: 2rem 1rem; } }
+    padding: 4rem 4rem; } }
 
 .project-name {
   margin-top: 0;
@@ -77,7 +78,7 @@ a {
 
 @media screen and (min-width: 64em) {
   .project-name {
-    font-size: 3.25rem; } }
+    font-size: 4.5rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-name {
@@ -94,7 +95,7 @@ a {
 
 @media screen and (min-width: 64em) {
   .project-tagline {
-    font-size: 1.25rem; } }
+    font-size: 2.5rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-tagline {
@@ -118,7 +119,7 @@ a {
 .main-content code {
   padding: 2px 4px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   color: #383e41;
   background-color: #f3f6fa;
   border-radius: 0.3rem; }
@@ -135,7 +136,7 @@ a {
   .main-content pre > code {
     padding: 0;
     margin: 0;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     color: #567482;
     word-break: normal;
     white-space: pre;
@@ -197,7 +198,7 @@ a {
     padding: 0;
     margin-bottom: 1rem; }
 .main-content hr {
-  height: 2px;
+  height: 1px;
   padding: 0;
   margin: 1rem 0;
   background-color: #eff0f1;
@@ -205,10 +206,9 @@ a {
 
 @media screen and (min-width: 64em) {
   .main-content {
-    max-width: 64rem;
     padding: 2rem 6rem;
     margin: 0 auto;
-    font-size: 1.1rem; } }
+    font-size: 1.5rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
@@ -243,3 +243,36 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+
+/**********************/
+/*wanglinzhizhi update*/
+/**********************/
+.post-heading h1{
+  font-size: 2.5rem;
+}
+
+section#post-main-content p {
+  font-size: 1.6rem;
+}
+
+section#post-main-content hr{
+  margin: 7rem 0;
+}
+
+ul.pager {
+    margin-bottom: 2rem;
+}
+
+hr#page-hr {
+    margin-top: 8rem;
+}
+
+article#post-article {
+    width: 98%;
+}
+
+
+article#post-article ul {
+    font-size: 1.5rem;
+}
