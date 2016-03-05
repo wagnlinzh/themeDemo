@@ -5,7 +5,7 @@ title:  "About this theme"
 
 
 
-#About this theme
+# About this theme
 
 this theme build by [Clean Blog](http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/) and the [deafult gitbuh page theme](http://wagnlinzh.github.io/githubpageDemo),then I rectreate a new theme base on above two. 
 
