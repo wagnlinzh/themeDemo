@@ -5,7 +5,7 @@ title:  "About this theme"
 
 
 
-#About this theme
+# About this theme
 
 this theme build by [Clean Blog](http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/) and the [deafult gitbuh page theme](http://wagnlinzh.github.io/githubpageDemo),then I rectreate a new theme base on above two. 
 
@@ -22,7 +22,9 @@ You can run `jekyll serve --watch` and `grunt watch` at the same time to watch f
 
 ## Q&A
 
-If there is something you want to tell me, then you can open an issue here  on GitHub.
+If there is something you want to tell me, then you can open an issue here  on GitHub,or you can Email me.
+
+
 
 :)
 
